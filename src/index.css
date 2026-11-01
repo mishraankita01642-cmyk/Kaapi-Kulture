@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #302923;
+  background: #e7e0d5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --cream: #e7e0d5;
+  --cream-dark: #d5c9b9;
+  --brown: #302923;
+  --brown-light: #51473e;
+  --terracotta: #94725e;
+  --muted: #756c62;
+  --olive: #77785b;
+  --stone: #ddd5c9;
+  --dark-brown: #28241f;
+
+  --serif: "Playfair Display", Georgia, serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body,
+button,
+a {
+  font-family: "DM Sans", sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 4px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+::selection {
+  color: white;
+  background: var(--terracotta);
+}
