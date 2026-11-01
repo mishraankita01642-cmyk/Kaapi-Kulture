@@ -366,10 +366,7 @@ function App() {
               into a modern café experience. From a classic filter kaapi to
               inventive flavours, every cup is an invitation to pause and connect.
             </p>
-            <p className="story-draft">
-              Brand story shown for demonstration. Final brand messaging to be
-              confirmed by the Kapi Kulture team.
-            </p>
+            
             <a className="text-link" href="#menu">Find your favourite ↗</a>
           </div>
         </section>
